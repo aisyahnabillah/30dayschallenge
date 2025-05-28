@@ -7,17 +7,23 @@ This challenge is designed to improve technical skills, foster consistency in pr
 
 ## Project List
 
-| Day | Project Name               | Description                                      | Source / Tutorial |
-|-----|----------------------------|--------------------------------------------------|-------------------|
-| 1   | Counter App                | A basic counter with increase, reset, and decrease functionalities | [Watch here](https://www.youtube.com/watch?v=11ObsRfbozM) |
-| 2   | Random Background Color    | Changes the background color on button click     | [Watch here](https://www.youtube.com/watch?v=l-3X0pVbpg4) |
-| 3   | Rotating Typography        | Circular animated typography using p5.js         | [Watch here](https://www.youtube.com/watch?v=jUM1z52m_bQ&t=738s) |
-| 4   | Pong Game                  | A classic Pong game built with JavaScript Canvas | [Watch here](https://www.youtube.com/watch?v=jrqN0uZwhwk) |
-| 5   | Random Quotes Generator    | Displays random quotes using a public API        | [Watch here](https://www.youtube.com/watch?v=I0v9ZOY3_0k) |
-| 6   | Digital Clock              | A real-time digital clock with clean pastel styling using HTML, CSS, and JavaScript. Includes time formatting with AM/PM and UTC offset customization | [Watch here](https://youtu.be/XB7KtabbblY) |
-| …   | …                          | …                                                | …                 |
-
-More projects will be added progressively up to Day 30.
+| Day                | Project Name               | Description                                      |
+|--------------------|----------------------------|--------------------------------------------------|
+| Day 1 – 15/05/2025 | Counter App                | A basic counter with increase, reset, and decrease functionalities |
+| Day 2 – 16/05/2025 | Random Background Color    | Changes the background color on button click     |
+| Day 3 – 17/05/2025 | Rotating Typography        | Circular animated typography using p5.js         |
+| Day 4 – 18/05/2025 | Pong Game                  | A classic Pong game built with JavaScript Canvas |
+| Day 5 – 19/05/2025 | Random Quotes Generator    | Displays random quotes using a public API        |
+| Day 6 – 20/05/2025 | Digital Clock              | A pastel-themed digital clock with real-time updates |
+| Day 7 – 21/05/2025 | Simple Temperature Converter | Converts temperature between Celsius and Fahrenheit |
+| Day 8 – 22/05/2025 | Calculator                 | A simple calculator for basic arithmetic         |
+| Day 9 – 23/05/2025 | Network Connection Checker | Detects internet connection status               |
+| Day 10 – 24/05/2025| Interactive Story Generator| A prompt-based dynamic story generator           |
+| Day 11 – 25/05/2025| Live Character Counter     | Counts the number of characters typed live       |
+| Day 12 – 26/05/2025| Custom Ice Cream Maker     | Interactive ice cream builder with toppings      |
+| Day 13 – 27/05/2025| Find Day of the Week       | Finds the weekday based on a today date          |
+| Day 14 – 28/05/2025| Tic Tac Toe Game           | A simple two-player tic tac toe game             |
+| Day 15 – 29/05/2025| Get Mouse Position         | Displays real-time X and Y coordinates of cursor |
 
 ---
 
@@ -26,6 +32,7 @@ More projects will be added progressively up to Day 30.
 - HTML, CSS, JavaScript
 - p5.js
 - Public APIs
+- Google Fonts
 - Visual Studio Code with Live Server
 
 ---
