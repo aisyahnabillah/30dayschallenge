@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #fce1e4, #d0e8f2);
+}
+
+.wrapper {
+    width: 90vmin;
+    max-width: 500px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    background: #f8f4ff;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(186, 194, 255, 0.3);
+}
+
+.game-details {
+    color: #6b728e;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbeff5;
+}
+
+.play-board {
+    flex: 1;
+    display: grid;
+    background: #e4ecf4;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+}
+
+.play-board .food {
+    background: #ff8fab;
+    border-radius: 4px;
+}
+
+.play-board .head {
+    background: #8ecae6;
+    border-radius: 4px;
+}
+
+.controls {
+    display: none;
+    justify-content: space-between;
+    background-color: #fbeff5;
+}
+
+.controls i {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #6b728e;
+    width: 25%;
+    cursor: pointer;
+    border-right: 1px solid #e5d4ed;
+}
+
+.controls i:last-child {
+    border-right: none;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 95vmin;
+        height: 100vmin;
+    }
+
+    .game-details {
+        font-size: 1rem;
+        padding: 12px 20px;
+    }
+
+    .controls {
+        display: flex;
+    }
+
+    .controls i {
+        padding: 15px 0;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        width: 95vmin;
+        height: 110vmin;
+        border-radius: 8px;
+    }
+
+    .game-details {
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .controls i {
+        font-size: 0.9rem;
+    }
+}

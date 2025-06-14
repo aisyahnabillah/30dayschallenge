@@ -1,0 +1,16 @@
+{
+    "songs": [
+        {
+            "path": "assets/Because of you.mp3",
+            "displayName": "Because of You",
+            "cover": "assets/1.webp",
+            "artist": "Lana Del Rey"
+        },
+        {
+            "path": "assets/Love You Anyway.mp3",
+            "displayName": "Love You Anyway",
+            "cover": "assets/2.jpg",
+            "artist": "The Marías"
+        }
+    ]
+}
